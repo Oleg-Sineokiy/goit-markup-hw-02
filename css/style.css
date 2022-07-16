@@ -1,0 +1,266 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.3em;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ______________________header style______________ */
+
+.header {
+    background-color: #ffffff;
+}
+
+.logo-link {
+    color: #2196F3;
+    font-family: 'Oleo Script', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+/* ссылки */
+.paragrahp-style{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121; 
+}
+
+.hover:hover {
+    color: #2196F3;
+}
+
+.imail-list:hover {
+    color: #2196F3;;
+}
+
+.info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* -------------------main style-------------------- */
+
+.main-section {
+    background-color: #2F303A;
+}
+/* Главный заголовок */
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.list-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* Кнопка */
+.order-button {
+    background-color: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    ;
+}
+
+.order-button:hover
+.order-button:focus {
+    background-color: #2196F3;
+}
+    
+/* Фон №2 */
+.decision-section, .main-basik {
+    background-color: #E5E5E5;
+}
+/* скрытый заголовок */
+.visually-hidden { 
+position: absolute; 
+width: 1px; 
+height: 1px; 
+margin: -1px; 
+border: 0; 
+padding: 0; 
+white-space: nowrap; 
+clip-path: inset(100%); 
+clip: rect(0 0 0 0); 
+overflow: hidden; 
+}
+
+/* portf list */
+.name-list-row, .button-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-all:hover {
+    background-color: #2196F3;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* качества */
+.benefits-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.busy-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* наша команда */
+.hidden-list {
+    background-color: #F5F4FA;
+}
+
+.hidden-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.specialist {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.specialist-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* __________________footer stryle_________________ */
+
+.basement {
+    background-color: #2F303A;
+}
+
+
+.logo-link {
+    color: #2196F3;
+    font-family: 'Oleo Script', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+
+.address-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contact-imail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-telephone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* Цвет основного текста #212121; /*
+/* Цвет вторичного текста #757575; /*
+/* Цвет фона шапки #FFFFFF; /*
+/* Цвет фона Верхней части и Подвала #2F303A; /*
+/* Цвет средины страницы #E5E5E5; /*
+/* Цвет нижней части страницы #F5F4FA; /*
+/* Белый #FFFFFF; /*
+/* Акцент #2196F3; /*
