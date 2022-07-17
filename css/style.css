@@ -125,6 +125,10 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.button-current {
+    color: var(--accent-color);
+}
+
 .order-button:hover 
 .order-button:focus {
   background-color: var(--accent-color);
