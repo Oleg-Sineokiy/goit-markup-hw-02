@@ -10,20 +10,50 @@
   --logo-style: #000000;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.3em;
+html {
+  box-sizing: border-box;
 }
 
-ul {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+
+ul,
+ol {
   list-style: none;
 }
 
 .text-logo {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 /* Цвет вторичного текста #757575; /*
@@ -75,7 +105,8 @@ ul {
   color: var(--accent-color);
 }
 
-.imail-list, .info:hover {
+.imail-list,
+.info:hover {
   color: var(--accent-color);
 }
 
@@ -125,20 +156,15 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.button-current {
-    color: var(--accent-color);
-}
-
-.order-button:hover 
-.order-button:focus {
-  background-color: var(--accent-color);
+.order-button:hover {
+  background-color: #188ce8;
 }
 
 /* Фон №2 */
-.decision-section,
+/* .decision-section,
 .main-basik {
-  background-color: var(--center-page-color);
-}
+  background-color: var(--center-page-color); */
+/* } */
 /* скрытый заголовок */
 .visually-hidden {
   position: absolute;
@@ -154,7 +180,7 @@ ul {
 }
 
 /* portf list */
-.button-current, {
+.button-current {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -163,7 +189,16 @@ ul {
   color: var(--title-text-color);
 }
 
+.button-current {
+  color: var(--accent-color);
+}
+
 .button-current:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.btn {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
@@ -174,16 +209,18 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+}
 
-.portfolio-text {
+.paragraf-name {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 /* качества */
+
 .benefits-header {
   font-weight: 700;
   font-size: 14px;
@@ -244,7 +281,6 @@ ul {
 .basement {
   background-color: var(--footer-background-color);
 }
-
 
 .address-footer {
   font-weight: 400;
