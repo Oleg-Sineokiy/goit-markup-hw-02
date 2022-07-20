@@ -51,11 +51,6 @@ ol {
   text-decoration: none;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 /* Цвет вторичного текста #757575; /*
 /* Цвет основного текста #212121; /*
 /* Цвет фона шапки #FFFFFF; /*
@@ -87,7 +82,7 @@ img {
 }
 
 .bottom {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--white-color);
 }
 
@@ -103,6 +98,24 @@ img {
 
 .paragrahp-style:hover {
   color: var(--accent-color);
+}
+
+.button-current {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.button-style {
+  color: var(--accent-color);
+}
+
+.button-current:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .imail-list,
@@ -180,23 +193,6 @@ img {
 }
 
 /* portf list */
-.button-current {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
-
-.button-current {
-  color: var(--accent-color);
-}
-
-.button-current:hover {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
 
 .btn {
   background-color: var(--accent-color);
